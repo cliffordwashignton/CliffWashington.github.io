@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cliff's Cajun Recipes</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+		header {
+			background-color: #111111;
+			color: white;
+			padding: 10px 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-family: serif;
+			font-size: 34px;
+		}
+
+		h1 {
+			margin: 0;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-size: 20px;
+			line-height: 1;
+			text-align: center;
+			flex-grow: 1;
+		}
+
+		button {
+			background-color: rgba(64, 181, 224, 0.884);
+			color: white;
+			border: none;
+			padding: 10px 20px;
+            margin: 5px 5px 5px 5px;
+			border-radius: 8px;
+			cursor: pointer;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: 15px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.hero {
+			position: relative;
+			height: 500px;
+			background-image: url('https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjI5NjF8MHwxfHNlYXJjaHwxMXx8Y2hlZnxlbnwwfHx8fDE2ODIwNDgxNjY&ixlib=rb-4.0.3&q=80&w=1080');
+			background-size: cover;
+			background-position: center;
+			filter: brightness(100%);
+		}
+
+		.hero-text {
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			text-align: center;
+			max-width: 800px;
+			padding: .5px;
+            font-weight: bold;
+			background-color: rgba(0,0,0,0.5);
+		}
+
+		.hero-text h2 {
+			font-size: 48px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+		.hero-text p {
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 40px;
+		}
+		p,h1,h2,h3,h4,h5 {
+			color: #ffffff;
+		}
+		.recipe {
+			text-align: center;
+			vertical-align: center;
+			padding: 0 100px 0;
+		}
+		.row {
+			padding: 10px 10px 10px 10px;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.sectionTitle {
+			font-size: 32px;
+			padding-top: 25px;
+		}
+	</style>
+	  <title>Cliff's Cajun Recipes</title>
+</head>
+
+<body style="background-color:#111111;">
+	<header>
+		<h1>Cliff's Cajun Recipes</h1>
+		<button onclick="window.location.href='../index.html'">Home</button>
+		<button>Call Us</button>
+	</header>
+
+	<section class="hero">
+		<div class="hero-text">
+			<h2>Bringing Louisiana Flavor to Your Table!</h2>
+			<p>Cliff's Cajun Recipes offers authentic Louisiana cuisine straight from the heart of the bayou. Enjoy flavorful dishes like red beans and rice, gumbo, jambalaya, and crawfish étouffée. Let Cliff take you on a journey of Louisiana flavors, bringing the taste of the bayou right to your table!</p>
+		</div>
+	</section>
+	<div>
+    	<h1 class="sectionTitle">Our services</h1>
+    	<p><img alt="Cliff's Cajun Cuisine" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></p>
+	</div>
+	<table>
+		<tr class="row">
+			<th class="recipe">
+				<img src="Images/pexels-keesha's-kitchen-13988842.jpg" width="250">
+				<h2>Beignets Recipe</h2>
+				<p>Cliff's Cajun Cuisine is the perfect meal option for those seeking a unique, flavorful experience. Our chef, Cliff, offers a variety of Cajun dishes made with fresh, local ingredients. Our menu features traditional New Orleans dishes such as gumbo, jambalaya, and crawfish étouffée. If you're looking for a truly flavorful and unique experience, try Cliff's Cajun Cuisine!</p><a href="./Recipes/Beignets.html">More info</a>	
+			</th>
+			<th class="recipe">
+				<img src="Images/pexels-polina-tankilevitch-4110460.jpg" width="250">
+				<h2>Lemon Baked Fish with Mashed Potatoes Recipe</h2>
+				<p>Cliff's Cajun Cuisine is a chef service that specializes in authentic Cajun cooking. From traditional jambalaya and gumbo, to mouthwatering po'boys and crawfish etouffee, Cliff's Cajun Recipies offers a delicious selection of Cajun-inspired dishes, all prepared with the freshest ingredients and a passion for bringing the flavors of Louisiana to your table.</p><a href="./Recipes/FishWithPotatoes.html">More info</a>
+			</th>
+			<th class="recipe">
+				<img src="Images/pexels-rachel-claire-6126975.jpg" width="250">
+				<h2>Shrimp Tacos Recipe</h2>
+				<h4>Bringing Louisiana Flavor to Your Table!</h4>
+				<p>Cliff's Cajun Recipes offers authentic Louisiana cuisine straight from the heart of the bayou. Enjoy flavorful dishes like red beans and rice, gumbo, jambalaya, and crawfish etouffee from the comfort of your own home. Our recipes are made with only the freshest ingredients and cooked to perfection by our skilled chefs. Let us bring a taste of the South to your next meal!</p><a href="./Recipes/ShrimpTacos.html">More info</a>
+			</th>
+		</tr>
+	</table>
+</body>
+
+</html>
